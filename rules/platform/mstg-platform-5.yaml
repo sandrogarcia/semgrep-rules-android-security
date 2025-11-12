@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-javascript-execution-in-webviews-mstg-platform-5
+      confidence: HIGH
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application allows for JavaScript execution within a WebView instance.
     pattern-either:
       - pattern: $OBJ.setJavaScriptEnabled(true)

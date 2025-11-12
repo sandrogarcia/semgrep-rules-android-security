@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-for-sensitive-functionality-exposure-through-ipc-mstg-platform-4
+      confidence: MEDIUM
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: Pending Intents must be declared as immutable and specify the exact package, action, and component that will receive the base intent.
     patterns:
       - pattern-inside: |

@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-webview-protocol-handlers-mstg-platform-6
+      confidence: LOW
+      likelihood: LOW
+      impact: MEDIUM
+      technology: [android]
     message: WebView can load remote content from an endpoint or local file system in an unsafe manner.
     options:
       symbolic_propagation: true

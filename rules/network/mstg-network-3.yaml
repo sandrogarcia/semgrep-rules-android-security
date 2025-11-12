@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05g-Testing-Network-Communication.md#testing-endpoint-identify-verification-mstg-network-3
+      confidence: HIGH
+      likelihood: LOW
+      impact: HIGH
+      technology: [android]
     message: Improper Server Certificate verification detected.
     options:
       symbolic_propagation: true

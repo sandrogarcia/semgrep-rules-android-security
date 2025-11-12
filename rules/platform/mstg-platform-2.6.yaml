@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-for-fragment-injection-mstg-platform-2
+      confidence: LOW
+      likelihood: LOW
+      impact: MEDIUM
+      technology: [android]
     message: Potential Fragment Injection found in the dinamically instantiated Fragment.
     mode: taint
     pattern-sources:

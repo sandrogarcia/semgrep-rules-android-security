@@ -13,6 +13,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md#memory-corruption-bugs-mstg-code-8
+      confidence: HIGH
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application does not unregister the broadcast receiver "$RCV" in the "onStop()" method of the activity.
     options:
       symbolic_propagation: true

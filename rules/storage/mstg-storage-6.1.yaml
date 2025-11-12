@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05d-Testing-Data-Storage.md#determining-whether-sensitive-stored-data-has-been-exposed-via-ipc-mechanisms-mstg-storage-6
+      confidence: LOW
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application may expose sensitive data via IPC mechanisms.
     paths:
       include:

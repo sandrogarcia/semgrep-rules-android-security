@@ -13,6 +13,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05f-Testing-Local-Authentication.md#testing-biometric-authentication-mstg-auth-8
+      confidence: MEDIUM
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application does not seem to properly implement biometric authentication.
     patterns:
       - pattern-either:

@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-for-app-permissions-mstg-platform-1
+      confidence: LOW
+      likelihood: LOW
+      impact: LOW
+      technology: [android]
     message: The application should request the minimum set of necessary permissions.
     pattern-either:
         # Access to location

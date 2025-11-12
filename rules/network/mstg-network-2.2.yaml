@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/tree/v1.5.0/Document/0x04f-Testing-Network-Communication.md
+      confidence: HIGH
+      likelihood: LOW
+      impact: LOW
+      technology: [android]
     message: Unrecommended cipher suite $BADCIPHER is used.
     options:
       symbolic_propagation: true

@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x04g-Testing-Cryptography.md#identifying-insecure-andor-deprecated-cryptographic-algorithms-mstg-crypto-4
+      confidence: HIGH
+      likelihood: MEDIUM
+      impact: HIGH
+      technology: [android]
     message: The application uses deprecated cryptographic algorithms.
     patterns:
       - pattern-either:

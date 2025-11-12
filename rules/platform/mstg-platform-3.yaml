@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-deep-links-mstg-platform-3
+      confidence: LOW
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application provides functionality via custom URL schemes. It is recommended to manual check possible sensitive data or functionality exposures.
     paths:
       include:

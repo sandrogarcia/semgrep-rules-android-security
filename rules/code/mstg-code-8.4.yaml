@@ -13,6 +13,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md#memory-corruption-bugs-mstg-code-8
+      confidence: LOW
+      likelihood: LOW
+      impact: LOW
+      technology: [android]
     message: The application uses the activity context to display toasts potentially causing memory leaks.
     options:
       symbolic_propagation: true

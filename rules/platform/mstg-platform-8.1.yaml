@@ -17,6 +17,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-object-persistence-mstg-platform-8
+      confidence: LOW
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: >-
         The application saves objects using potentially unsafe persistence primitives that apparently do not employ encryption.
     pattern-either:

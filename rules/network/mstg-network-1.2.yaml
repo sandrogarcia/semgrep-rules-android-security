@@ -15,6 +15,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05g-Testing-Network-Communication.md#testing-data-encryption-on-the-network-mstg-network-1
+      confidence: HIGH
+      likelihood: MEDIUM
+      impact: HIGH
+      technology: [android]
     message: The application could send information over insecure channels or not use the getDefaultHostnameVerifier method for SSLSocket
     paths:
       exclude:

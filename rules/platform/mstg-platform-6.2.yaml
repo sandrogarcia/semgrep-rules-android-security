@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#testing-webview-protocol-handlers-mstg-platform-6
+      confidence: LOW
+      likelihood: LOW
+      impact: LOW
+      technology: [android]
     message: >-
         The WebView allows to load external content. It is suggested to verify that the granted
         accesses are necessary and follow the best practices.

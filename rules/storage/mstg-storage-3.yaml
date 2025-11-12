@@ -14,6 +14,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05d-Testing-Data-Storage.md#testing-logs-for-sensitive-data-mstg-storage-3
+      confidence: HIGH
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application writes sensitive data in application logs.
     patterns:
       - pattern-either:

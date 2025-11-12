@@ -14,7 +14,11 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05e-Testing-Cryptography.md#testing-symmetric-cryptography-mstg-crypto-1
-    message: The application relies on symmetric cryptography with hardcoded keys as a sole method of encryption.
+      confidence: MEDIUM
+      likelihood: MEDIUM
+      impact: HIGH
+      technology: [android]
+    message: The application relies on symmetric cryptography with hardcoded keys as a single method of encryption.
     options:
       symbolic_propagation: true
     pattern-either:

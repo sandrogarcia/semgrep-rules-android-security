@@ -15,6 +15,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05h-Testing-Platform-Interaction.md#determining-whether-java-objects-are-exposed-through-webviews-mstg-platform-7
+      confidence: LOW
+      likelihood: LOW
+      impact: MEDIUM
+      technology: [android]
     message: The application exposes the Java class "$CLASS" through the WebView "$WV".
     pattern-either:
       - patterns:

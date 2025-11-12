@@ -13,6 +13,10 @@ rules:
         - L2
       references:
         - https://github.com/OWASP/owasp-mastg/blob/v1.5.0/Document/0x05d-Testing-Data-Storage.md#finding-sensitive-information-in-auto-generated-screenshots-mstg-storage-9
+      confidence: LOW
+      likelihood: MEDIUM
+      impact: MEDIUM
+      technology: [android]
     message: The application does not remove sensitive data from views when moved to the background.
     patterns:
       - pattern-either:
